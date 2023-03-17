@@ -1,0 +1,405 @@
+{
+  "title": "Options",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "blush": {
+      "title": "Blush",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "solidPink",
+          "softPink",
+          "solidCoral",
+          "softCoral"
+        ]
+      },
+      "default": [
+        "solidPink",
+        "softPink",
+        "solidCoral",
+        "softCoral"
+      ]
+    },
+    "hair": {
+      "title": "Hair",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "smooth",
+          "upTop",
+          "bob",
+          "straightUp",
+          "diva",
+          "princess",
+          "eggshell",
+          "leafy",
+          "kindergarten",
+          "chipper",
+          "shaggy",
+          "twinBraids",
+          "chill",
+          "fairy",
+          "noMessBun",
+          "someMessBun",
+          "undercut",
+          "brock",
+          "dino"
+        ]
+      },
+      "default": [
+        "smooth",
+        "upTop",
+        "bob",
+        "straightUp",
+        "diva",
+        "princess",
+        "eggshell",
+        "leafy",
+        "kindergarten",
+        "chipper",
+        "shaggy",
+        "twinBraids",
+        "chill",
+        "fairy",
+        "noMessBun",
+        "someMessBun",
+        "undercut",
+        "brock",
+        "dino"
+      ]
+    },
+    "eyes": {
+      "title": "Eyes",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "cat",
+          "kindLash",
+          "sideEye",
+          "kind",
+          "sparkly",
+          "dreamy",
+          "sleepy",
+          "lookAtMeBottomLash",
+          "lookAtMeTopLash",
+          "lookAtMe",
+          "zzz",
+          "smiling",
+          "zzzLashes",
+          "smilingLash",
+          "circleBottomLash",
+          "circleTopLash",
+          "circle",
+          "ovalBottomLash",
+          "ovalTopLash",
+          "oval"
+        ]
+      },
+      "default": [
+        "cat",
+        "kindLash",
+        "sideEye",
+        "kind",
+        "sparkly",
+        "dreamy",
+        "sleepy",
+        "lookAtMeBottomLash",
+        "lookAtMeTopLash",
+        "lookAtMe",
+        "zzz",
+        "smiling",
+        "zzzLashes",
+        "smilingLash",
+        "circleBottomLash",
+        "circleTopLash",
+        "circle",
+        "ovalBottomLash",
+        "ovalTopLash",
+        "oval"
+      ]
+    },
+    "mouth": {
+      "title": "Mouth",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "smallSmile",
+          "surprise",
+          "kissy",
+          "wideSmile",
+          "laugh",
+          "drool",
+          "catSmile",
+          "bunnySmile"
+        ]
+      },
+      "default": [
+        "smallSmile",
+        "surprise",
+        "kissy",
+        "wideSmile",
+        "laugh",
+        "drool",
+        "catSmile",
+        "bunnySmile"
+      ]
+    },
+    "nose": {
+      "title": "Nose",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "triangle",
+          "oval",
+          "rectangle",
+          "circle"
+        ]
+      },
+      "default": [
+        "triangle",
+        "oval",
+        "rectangle",
+        "circle"
+      ]
+    },
+    "tee": {
+      "title": "Tee",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "star",
+          "springPlaid",
+          "sailor",
+          "pBJ",
+          "nookIncAloha",
+          "froggy",
+          "flames",
+          "dots",
+          "adventureAwaits",
+          "aColor"
+        ]
+      },
+      "default": [
+        "star",
+        "springPlaid",
+        "sailor",
+        "pBJ",
+        "nookIncAloha",
+        "froggy",
+        "flames",
+        "dots",
+        "adventureAwaits",
+        "aColor"
+      ]
+    },
+    "eyesColor": {
+      "title": "Eyes Color",
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "brown",
+              "black",
+              "blushLids",
+              "candyLids",
+              "green",
+              "blue",
+              "grey",
+              "purple"
+            ]
+          },
+          {
+            "$ref": "https://dicebear.com/schema/v4.json#/definitions/color"
+          }
+        ]
+      },
+      "default": [
+        "brown",
+        "black",
+        "blushLids",
+        "candyLids",
+        "green",
+        "blue",
+        "grey",
+        "purple"
+      ]
+    },
+    "noseColor": {
+      "title": "Nose Color",
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "coral",
+              "flush",
+              "rose"
+            ]
+          },
+          {
+            "$ref": "https://dicebear.com/schema/v4.json#/definitions/color"
+          }
+        ]
+      },
+      "default": [
+        "coral",
+        "flush",
+        "rose"
+      ]
+    },
+    "mouthColor": {
+      "title": "Mouth Color",
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "brown",
+              "black",
+              "flush",
+              "coral",
+              "rose"
+            ]
+          },
+          {
+            "$ref": "https://dicebear.com/schema/v4.json#/definitions/color"
+          }
+        ]
+      },
+      "default": [
+        "brown",
+        "black",
+        "flush",
+        "coral",
+        "rose"
+      ]
+    },
+    "skinColor": {
+      "title": "Skin Color",
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11"
+            ]
+          },
+          {
+            "$ref": "https://dicebear.com/schema/v4.json#/definitions/color"
+          }
+        ]
+      },
+      "default": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ]
+    },
+    "hairColor": {
+      "title": "Hair Color",
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "licorice",
+              "chestnut",
+              "hotCocoa",
+              "caramel",
+              "cinnamon",
+              "banana",
+              "souffle",
+              "oyster",
+              "icing"
+            ]
+          },
+          {
+            "$ref": "https://dicebear.com/schema/v4.json#/definitions/color"
+          }
+        ]
+      },
+      "default": [
+        "licorice",
+        "chestnut",
+        "hotCocoa",
+        "caramel",
+        "cinnamon",
+        "banana",
+        "souffle",
+        "oyster",
+        "icing"
+      ]
+    },
+    "clothesColor": {
+      "title": "Clothes Color",
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "black",
+              "yellow",
+              "maroon",
+              "pink",
+              "blue",
+              "mint",
+              "purple",
+              "orange",
+              "green",
+              "navy",
+              "red"
+            ]
+          },
+          {
+            "$ref": "https://dicebear.com/schema/v4.json#/definitions/color"
+          }
+        ]
+      },
+      "default": [
+        "black",
+        "yellow",
+        "maroon",
+        "pink",
+        "blue",
+        "mint",
+        "purple",
+        "orange",
+        "green",
+        "navy",
+        "red"
+      ]
+    }
+  },
+  "additionalProperties": false
+}
